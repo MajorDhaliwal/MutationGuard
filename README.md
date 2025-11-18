@@ -41,3 +41,7 @@ Training a model
 
 There is a trained model that already exists for use ```./backend/models/model.pt```
 
+The data used was dowloaded [here](https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz)
+
+The script to use format the dataset is here ```./backend/data/convert_clinvar.py``` which will generate ```mutations.csv```. It is recommended to unarchive ```variant_summary.txt.gz``` in the same folder.
+
