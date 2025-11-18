@@ -39,3 +39,5 @@ Training a model
 
 ```python training/train.py```
 
+There is a trained model that already exists for use ```./backend/models/model.pt```
+
